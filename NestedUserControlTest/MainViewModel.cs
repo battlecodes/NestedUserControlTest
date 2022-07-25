@@ -55,7 +55,8 @@ namespace NestedUserControlTest
         private void ClearFields(object obj)
         {
             //FieldText = string.Empty;
-            FieldText = "test";
+            //FieldText = "test";
+            FieldText = $"{DateTime.Now.ToString()}";
         }
 
 
